@@ -1,0 +1,18 @@
+{
+  "name": "kakeibo-app-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "家計簿アプリのバックエンド。Claude API でレシート画像を読み取る",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  }
+}
